@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "matt lee Launches Site"
+title: "First blog post!"
 date: 2016-08-11
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Test post. Seeing if this works. Powered by Jerkyll and using Markdown to author posts. It's going pretty swell lol.
