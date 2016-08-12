@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Is Code"
-date: 2016-08-11
+date: 2016-08-13
 ---
 
 I've taken only two courses in computer science, _Intro to Java_ and _Intermediate Programming_, a nasty and difficult introductory course that teaches C/C++. Even after _Intermediate Programming_ aggresively shoved a semester's worth of material into my brain in just five weeks, I still find myself scratching the door of what I can actually do using computer science. I also find myself often thinking about if what I'm learning in class really matters.   
