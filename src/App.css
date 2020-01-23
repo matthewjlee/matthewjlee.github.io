@@ -2,3 +2,25 @@
   margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  background: lightgray;
+  border-radius: 25px;
+  min-width: 150px;
+  margin-right: 6px;
+  min-height: 400px;
+}
+
+.content {
+  width: 75%;
+  border-radius: 25px;
+  background: lightcyan;
+}

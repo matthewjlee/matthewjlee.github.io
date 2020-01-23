@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "clean": "rm -rf node_modules/"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,11 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
+    "babel-plugin-module-resolver": "^4.0.0",
     "css-loader": "^1.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-router-dom": "^5.1.2",
     "style-loader": "^0.23.0",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
