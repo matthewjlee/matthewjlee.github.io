@@ -21,7 +21,8 @@ class App extends Component{
                   <h2> about </h2>
                 </Route>
                 <Route path="/music">
-                  <h2> music </h2>
+                  <iframe src="https://open.spotify.com/embed/playlist/0Inenyjaq0U3dyiHcJ8JGF" width="300" height="380"
+                          frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </Route>
                 <Route path="/books">
                   <h2> books </h2>
