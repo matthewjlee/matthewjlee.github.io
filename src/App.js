@@ -1,39 +1,26 @@
 import React, { Component} from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 import "./App.css";
-import Sidebar from 'components/Sidebar';
+import github_icon from "../public/images/github-72.png"
+import twitter_icon from "../public/images/twitter-72.png"
+import linkedin_icon from "../public/images/linkedin-72.png"
 
 class App extends Component{
   render(){
-    return(
-        <Router>
-          <div className="layout">
-            <Sidebar className="sidebar"/>
-
-            <div className="content">
-              <Switch>
-                <Route path="/about">
-                  <h2> about </h2>
-                </Route>
-                <Route path="/music">
-                  <iframe src="https://open.spotify.com/embed/playlist/0Inenyjaq0U3dyiHcJ8JGF" width="300" height="380"
-                          frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                </Route>
-                <Route path="/books">
-                  <h2> books </h2>
-                </Route>
-                <Route path="/thoughts">
-                  <h2> thoughts </h2>
-                </Route>
-              </Switch>
-            </div>
-          </div>
-        </Router>
+    return (
+        <div className="content">
+            <header>
+                <h1 className="intro">
+                    Hi! I’m Matthew Lee, a fullstack engineer <br/> working on different things.
+                </h1>
+            </header>
+            <footer className="footer">
+                <div className="link-container">
+                    <img className='icon' src={github_icon}/>
+                    <img className='icon' src={twitter_icon}/>
+                    <img className='icon' src={linkedin_icon}/>
+                </div>
+            </footer>
+        </div>
     );
   }
 }
