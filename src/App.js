@@ -15,9 +15,15 @@ class App extends Component{
             </header>
             <footer className="footer">
                 <div className="link-container">
-                    <img className='icon' src={github_icon}/>
-                    <img className='icon' src={twitter_icon}/>
-                    <img className='icon' src={linkedin_icon}/>
+                    <a href="https://github.com/matthewjlee">
+                        <img className='icon' src={github_icon}/>
+                    </a>
+                    <a href="https://twitter.com/matthewjunelee">
+                        <img className='icon' src={twitter_icon}/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matthewjunelee">
+                        <img className='icon' src={linkedin_icon}/>
+                    </a>
                 </div>
             </footer>
         </div>
